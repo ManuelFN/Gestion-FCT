@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="571.0" prefWidth="806.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controlador.FicheroaTablaController">
+    <children>
+      <Label layoutX="292.0" layoutY="42.0" prefHeight="27.0" prefWidth="255.0" text="ALUMNOS Y TUTORES A TABLA">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="309.0" fitWidth="620.0" layoutX="98.0" layoutY="201.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img_2.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="484.0" id="Label" fx:id="Label" layoutY="483.0" />   
+    </children>
+</AnchorPane>

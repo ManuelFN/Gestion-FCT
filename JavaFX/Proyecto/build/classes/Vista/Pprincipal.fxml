@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="628.0" prefWidth="1009.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controlador.PprincipalController">
+    <children>
+      <Label layoutX="423.0" layoutY="45.0" prefHeight="27.0" prefWidth="164.0" text="GESTIÓN SAFA FCT.">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="imglogo" fitHeight="267.0" fitWidth="658.0" layoutX="187.0" layoutY="154.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@nuevo_logo_SAFA_H.png" />
+         </image>
+      </ImageView>
+     <Button layoutX="587.0" layoutY="577.0" mnemonicParsing="false" onAction="#buttonFicheros" prefHeight="30.0" prefWidth="133.0" text="Ficheros a Tabla">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="430.0" layoutY="577.0" mnemonicParsing="false" onAction="#buttonAsignacion" prefHeight="30.0" prefWidth="151.0" text="Asignación Alumnos">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="272.0" layoutY="577.0" mnemonicParsing="false" onAction="#buttonGestion" prefHeight="30.0" prefWidth="151.0" text="Gestión Empresas">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="484.0" id="Label" fx:id="Label" layoutY="483.0" />      
+   </children>
+</AnchorPane>

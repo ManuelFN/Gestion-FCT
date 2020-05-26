@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="571.0" prefWidth="806.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controlador.AsignacionController">
+    <children>
+      <Label layoutX="265.0" layoutY="36.0" prefHeight="27.0" prefWidth="338.0" text="ASIGNACIÓN DE ALUMNOS A EMPRESAS">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="188.0" layoutY="101.0" text="Elección de Alumno:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="Alumno" layoutX="324.0" layoutY="99.0" prefHeight="25.0" prefWidth="280.0" />
+      <ComboBox fx:id="Empresa" layoutX="387.0" layoutY="180.0" prefHeight="25.0" prefWidth="176.0" />
+      <Label layoutX="251.0" layoutY="182.0" text="Elección de Empresa:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="223.0" layoutY="272.0" text="Elección de Tutor:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="Tutor" layoutX="342.0" layoutY="269.0" prefHeight="25.0" prefWidth="198.0" />
+        <Label id="Label" fx:id="Label" layoutX="151.0" layoutY="335.0" prefHeight="102.0" prefWidth="504.0" />
+      <Button layoutX="292.0" layoutY="473.0" mnemonicParsing="false" onAction="#buttonAsignar" prefHeight="33.0" prefWidth="95.0" text="Asignar" />
+      <Button layoutX="420.0" layoutY="473.0" mnemonicParsing="false" onAction="#buttonActualizar" prefHeight="33.0" prefWidth="95.0" text="Actualizar" />   
+    </children>
+    
+</AnchorPane>
